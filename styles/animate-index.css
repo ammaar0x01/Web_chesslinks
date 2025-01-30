@@ -1,0 +1,35 @@
+
+
+/* animations */
+@keyframes color-shift {
+    0%{
+        border-color: red; 
+    }
+
+    20%{
+        border-color: yellow; 
+    }
+
+    40%{
+        border-color: green;
+    }
+
+    60%{
+        border-color: blue; 
+    }
+
+    80%{
+        border-color: pink; 
+    }
+
+    90%{
+        border-color: orange; 
+    }
+
+    100%{
+        border-color: red; 
+    }    
+}
+/* #chessboard {
+    animation: color-shift 25s infinite; 
+} */

@@ -1,0 +1,97 @@
+
+/* SECTIONS */
+.white{
+    background-color: white;
+    color:black;
+}
+.white input{
+    color:black;
+}
+.black{
+    background-color: black;
+    color:lightgrey;
+}
+/* --------------------------------- */
+
+/* dark bg; light text */
+.prompt1, .productLightColor{
+    width:300px;
+    padding:10px;
+    border:1px solid grey;
+    border-radius:10px;
+    transition:500ms ease;
+    cursor: pointer;
+    color:grey;
+}
+.prompt1:hover{
+    cursor: default;
+    /* border:2px solid lightgrey; */
+    /* box-shadow: 1px 1px 4px rgb(255, 255, 255); */
+    box-shadow: none; 
+    color:white;
+}
+.productLightColor:hover{
+    /* border:2px solid lightgrey; */
+    box-shadow: 1px 1px 10px rgb(207, 203, 203);
+    color:white;
+}
+
+/* light bg; dark color */
+.prompt2, .productDarkColor{
+    width:300px;
+    padding:10px;
+    border:1px solid darkslategray;
+    border-radius:10px;
+    transition:500ms ease;
+    cursor: pointer;
+    color:grey;
+}
+.prompt2:hover{
+    cursor: default;
+    border:1px solid rgb(189, 8, 8);
+    box-shadow: 1px 1px 10px grey;
+    color:black;
+}
+.productDarkColor:hover{
+    border:1px solid rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px grey;
+    color:black;
+}
+
+
+
+section input{
+    background:transparent;
+    border:none;
+    outline:none;
+    padding:5px;
+    margin:10px 0;
+    width: 300px; 
+    border-bottom:1px solid grey;
+    color:lightgrey;
+    font-family: monospace;
+    text-align: center;
+}
+
+
+/* product divs */
+.productLightColor, .productDarkColor{
+    visibility: hidden;
+    margin:10px 0;
+}
+
+.productLightColor a{
+    color:grey;
+    transition:500ms ease;
+}
+.productLightColor a:hover{
+    color:white;
+}
+
+.productDarkColor a{
+    color:grey;
+    transition:500ms ease;
+}
+.productDarkColor a:hover{
+    color:black;
+}
