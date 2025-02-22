@@ -42,7 +42,7 @@ a:focus{
 #chessboard{
     padding:10px;
     margin:10px; 
-    border: 2px solid red; 
+    border: 2px solid blue; 
     transition: ease 1000ms; 
 }
 
@@ -57,7 +57,7 @@ a:focus{
     cursor: pointer;
 }
 #chessboard .cell:hover{
-    background-color:red;
+    background-color:blue;
 }
 
 #chessboard .cell-black{
